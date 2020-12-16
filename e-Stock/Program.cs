@@ -21,11 +21,17 @@ namespace e_Stock
 
 
             var message = new Message(produtoCriado.ToJsonBytes());
+            
+	    Console.WriteLine("Start");
 
-            serviceBusClient.SendAsync(message);
+            while(true)
+           {
 
             Console.ReadKey();
-
+            serviceBusClient.SendAsync(message);
+            Console.WriteLine("ProdutoCriado");
+            
+           }
                    
         }
 

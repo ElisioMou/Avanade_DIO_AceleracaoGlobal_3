@@ -1,0 +1,4 @@
+D:\MeusProjetos\C#\AVANADE_ACEL#3\e-Sales\obj\Debug\netcoreapp3.1\e-Sales.csprojAssemblyReference.cache
+D:\MeusProjetos\C#\AVANADE_ACEL#3\e-Sales\obj\Debug\netcoreapp3.1\e-Sales.AssemblyInfoInputs.cache
+D:\MeusProjetos\C#\AVANADE_ACEL#3\e-Sales\obj\Debug\netcoreapp3.1\e-Sales.AssemblyInfo.cs
+D:\MeusProjetos\C#\AVANADE_ACEL#3\e-Sales\obj\Debug\netcoreapp3.1\e-Sales.csproj.CoreCompileInputs.cache
