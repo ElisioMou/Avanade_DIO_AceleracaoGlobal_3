@@ -1,7 +1,11 @@
-﻿namespace e_Sales
+﻿using Newtonsoft.Json;
+
+namespace e_Sales
 {
     public static class UtilsBase
     {
+        public static JsonConverter[] JsonSettings { get; private set; }
+        public static object Utf8NoBom { get; private set; }
 
         /// <summary>
         /// Converts the object to json bytes.
@@ -13,7 +17,9 @@
             if (source == null)
                 return null;
             var instring = JsonConvert.SerializeObject(source, Formatting.Indented, JsonSettings);
-            return Utf8NoBom.GetBytes(instring);
+            return NewMethod(instring);
+
+            static byte[] NewMethod(string instring) => Utf8NoBom.GetType(instring);
         }
     }
 }

@@ -9,7 +9,7 @@ namespace e_Sales
 {
     partial class Program
     {
-        public static class Utils : UtilsBase2
+        public static class Utils 
         {
             private static readonly UTF8Encoding Utf8NoBom = new UTF8Encoding(false);
 

@@ -1,4 +1,9 @@
-﻿namespace e_Sales
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Serialization;
+using System.Text;
+
+namespace e_Sales
 {
     public static class UtilsBase1
     {
